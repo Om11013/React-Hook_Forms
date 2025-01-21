@@ -4,6 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
+label{
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+}
 
 .logo {
   height: 6em;
