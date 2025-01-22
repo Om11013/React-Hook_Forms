@@ -17,7 +17,7 @@ const Form = () => {
   const { register, control, handleSubmit, formState } = form
   const { errors } = formState
 
-  const { fields,append, remove } = useFieldArray({
+  const { fields, append, remove } = useFieldArray({
     name: 'phnNumbers',
     control
   })
